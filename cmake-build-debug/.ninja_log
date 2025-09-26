@@ -1,0 +1,10 @@
+# ninja log v6
+5	259	7803170720414054	CMakeFiles/projet_badges_ap4a.dir/main.cpp.obj	5448df93b53fbda5
+260	352	7803170722963806	projet_badges_ap4a.exe	d6007b7a78187e5d
+9	362	7804266894722237	build.ninja	415c57e57319040c
+33	329	7804266895412249	CMakeFiles/projet_badges_ap4a.dir/Server.cpp.obj	589d8c5e5f30ce27
+61	332	7804266895692235	CMakeFiles/projet_badges_ap4a.dir/Badge.cpp.obj	4d7601bdac9ea422
+43	332	7804266895517234	CMakeFiles/projet_badges_ap4a.dir/LecteurBadge.cpp.obj	c34187fe3555db34
+17	332	7804266895252242	CMakeFiles/projet_badges_ap4a.dir/Scheduler.cpp.obj	67c87dc300345a27
+4	445	7804266895122403	CMakeFiles/projet_badges_ap4a.dir/main.cpp.obj	5448df93b53fbda5
+445	604	7804266899537227	projet_badges_ap4a.exe	1f5de299d4df1c39

@@ -1,0 +1,3 @@
+C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug/CMakeFiles/projet_badges_ap4a.dir
+C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
