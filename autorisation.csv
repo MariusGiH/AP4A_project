@@ -1,0 +1,7 @@
+id, function, pass1, pass2
+1, student, classroom,
+2, teacher, classroom, teach_room
+3, security, tech_room,
+4, admin, admin_room,
+5, researcher, laboratory,
+

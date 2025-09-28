@@ -1,10 +1,19 @@
 # ninja log v6
-5	259	7803170720414054	CMakeFiles/projet_badges_ap4a.dir/main.cpp.obj	5448df93b53fbda5
-260	352	7803170722963806	projet_badges_ap4a.exe	d6007b7a78187e5d
-9	362	7804266894722237	build.ninja	415c57e57319040c
-33	329	7804266895412249	CMakeFiles/projet_badges_ap4a.dir/Server.cpp.obj	589d8c5e5f30ce27
-61	332	7804266895692235	CMakeFiles/projet_badges_ap4a.dir/Badge.cpp.obj	4d7601bdac9ea422
-43	332	7804266895517234	CMakeFiles/projet_badges_ap4a.dir/LecteurBadge.cpp.obj	c34187fe3555db34
-17	332	7804266895252242	CMakeFiles/projet_badges_ap4a.dir/Scheduler.cpp.obj	67c87dc300345a27
-4	445	7804266895122403	CMakeFiles/projet_badges_ap4a.dir/main.cpp.obj	5448df93b53fbda5
+54	350	7807472867912918	CMakeFiles/AP4A_project.dir/Badge.cpp.obj	abf4ba82429b9856
 445	604	7804266899537227	projet_badges_ap4a.exe	1f5de299d4df1c39
+439	573	7807472871760871	AP4A_project.exe	7cc4bd986fb3c1cf
+9	362	7807480507372233	build.ninja	415c57e57319040c
+36	233	7807472867732920	CMakeFiles/AP4A_project.dir/Scheduler.cpp.obj	d51a7979de1d68b0
+26	439	7807472867638082	CMakeFiles/AP4A_project.dir/main.cpp.obj	e864d27941e63c72
+45	344	7807472867822923	CMakeFiles/AP4A_project.dir/Server.cpp.obj	e1a259cee5bbd04e
+15	293	7805948639147679	CMakeFiles/AP4A_project.dir/LecteurBadge.cpp.obj	308f40b3f2efbca0
+4	277	7807480507372233	build.ninja	c120d62e625c15b
+12	237	7807480507822224	CMakeFiles/AP4A_project.dir/Serveur.cpp.obj	f871790849f4fef
+36	250	7807480508057224	CMakeFiles/AP4A_project.dir/Badge.cpp.obj	abf4ba82429b9856
+24	290	7807480507937229	CMakeFiles/AP4A_project.dir/LecteurBadge.cpp.obj	308f40b3f2efbca0
+4	313	7807480507737229	CMakeFiles/AP4A_project.dir/main.cpp.obj	e864d27941e63c72
+313	406	7807480510822232	AP4A_project.exe	6b0ddbfc960ff96f
+4	258	7807480981442995	CMakeFiles/AP4A_project.dir/main.cpp.obj	e864d27941e63c72
+258	352	7807480983978009	AP4A_project.exe	6b0ddbfc960ff96f
+4	261	7807482018219081	CMakeFiles/AP4A_project.dir/main.cpp.obj	e864d27941e63c72
+261	360	7807482020789070	AP4A_project.exe	6b0ddbfc960ff96f

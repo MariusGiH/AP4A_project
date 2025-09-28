@@ -5,14 +5,43 @@
 
 class lecteur_badge{
 private:
-    int id_entry;
-    static int id_building, id_classroom, id_laboratory, id_tech_romm, id_teach_room, id_admin_room; //Pour un id s'incrémentant pour chaque type au lieu de mélanger
+    static int id_entry;
+};
 
-    enum class access{ building, classroom, laboratory, tech_room, teach_room, admin_room};
-
+class lecteur_badge_building {
+    std::string location = "building";
 public:
-    friend class server;
-    std::string functionToString(access p);
+    friend class serveur;
+};
+
+class lecteur_badge_classroom {
+    std::string location = "classroom";
+public:
+    friend class serveur;
+};
+
+class lecteur_badge_laboratory {
+    std::string location = "laboratory";
+public:
+    friend class serveur;
+};
+
+class lecteur_badge_admin_room {
+    std::string location = "admin_room";
+public:
+    friend class serveur;
+};
+
+class lecteur_badge_teach_room {
+    std::string location = "teach_room";
+public:
+    friend class serveur;
+};
+
+class lecteur_badge_tech_room {
+    std::string location = "tech_room";
+public:
+    friend class serveur;
 };
 
 

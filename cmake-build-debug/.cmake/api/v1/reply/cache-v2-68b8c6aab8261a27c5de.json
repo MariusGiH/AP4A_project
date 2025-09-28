@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "AP4A_project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug"
+		},
+		{
+			"name" : "AP4A_project_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "AP4A_project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug"
+			"value" : "c:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a"
+			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/projet_badges_ap4a"
+			"value" : "C:/Program Files (x86)/AP4A_project"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "projet_badges_ap4a"
+			"value" : "AP4A_project"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1280,42 +1316,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "projet_badges_ap4a_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug"
-		},
-		{
-			"name" : "projet_badges_ap4a_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "projet_badges_ap4a_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a"
 		}
 	],
 	"kind" : "cache",

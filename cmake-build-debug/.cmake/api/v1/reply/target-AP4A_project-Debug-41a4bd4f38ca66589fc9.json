@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "projet_badges_ap4a.exe"
+			"path" : "AP4A_project.exe"
 		},
 		{
-			"path" : "projet_badges_ap4a.pdb"
+			"path" : "AP4A_project.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -60,7 +60,7 @@
 			]
 		}
 	],
-	"id" : "projet_badges_ap4a::@6890427a1f51a3e7e1df",
+	"id" : "AP4A_project::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -80,8 +80,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "projet_badges_ap4a",
-	"nameOnDisk" : "projet_badges_ap4a.exe",
+	"name" : "AP4A_project",
+	"nameOnDisk" : "AP4A_project.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -133,12 +133,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Server.cpp",
+			"path" : "Serveur.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Server.h",
+			"path" : "Serveur.h",
 			"sourceGroupIndex" : 1
 		},
 		{

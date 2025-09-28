@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "projet_badges_ap4a",
+					"name" : "AP4A_project",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "projet_badges_ap4a::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-projet_badges_ap4a-Debug-548fbafb32434617e88e.json",
-					"name" : "projet_badges_ap4a",
+					"id" : "AP4A_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AP4A_project-Debug-41a4bd4f38ca66589fc9.json",
+					"name" : "AP4A_project",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a/cmake-build-debug",
-		"source" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/projet_badges_ap4a"
+		"build" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug",
+		"source" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project"
 	},
 	"version" : 
 	{

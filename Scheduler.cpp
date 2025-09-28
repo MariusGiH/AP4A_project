@@ -1,7 +1,10 @@
 #include "Scheduler.h"
+#include "Serveur.h"
 
-class scheduler {
-//va definir la journee type en exemple
+void simulation() {
+    serveur serveur_principal;
+    
+};
+    //va definir la journee type en exemple
 
     //faire de l'aléatoire pour les horaires, les tentatives d'accès ?
-};
