@@ -6,22 +6,13 @@
 #include "Badge.h"
 
 int main() {
-    std::ifstream file("../autorisation.csv");
-    std::string line;
 
-    if (!file.is_open()) {
-        std::cerr << "Erreur : impossible d'ouvrir le fichier CSV\n";
-    }else {
-        std::cout << "Fichier CSV ouvert\n";
-    }
 
     simulation(); //lance simulation dans Scheduler
 
-    //définir les class badge + lecteur_badge
     //tenter de les appeler dans serveur
     //vérifier à l'aide du csv si l'autorisation passe
 
-    file.close();
     return 0;
 
     //Ajout d'un tri des autorisations en fonction des horaires
