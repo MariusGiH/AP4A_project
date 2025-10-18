@@ -1,0 +1,5 @@
+Time, Id, Name, Function, IdLocation, Location, AuthorizedOrNot
+18, 0, marius, student, 0, classroom, permission accepted
+18, 1, pierre, admin, 0, classroom, permission rejected : wrong function
+18, 0, marius, student, 3, admin_room, permission rejected : wrong function
+18, 1, pierre, admin, 3, admin_room, permission accepted

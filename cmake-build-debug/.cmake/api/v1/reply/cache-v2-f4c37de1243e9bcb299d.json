@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug"
+			"value" : "C:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project/cmake-build-debug"
 		},
 		{
 			"name" : "AP4A_project_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project"
+			"value" : "C:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug"
+			"value" : "c:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project"
+			"value" : "C:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

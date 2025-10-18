@@ -10,55 +10,54 @@ private:
     std::string location;
 public: //forme de Coplien
     lecteur_badge() : id_entry(id_memory++), location("unknown"){};
-    lecteur_badge(lecteur_badge& b) {this->id_entry = b.id_entry; this->location = b.location;}
+    lecteur_badge(const lecteur_badge& b) {this->id_entry = b.id_entry; this->location = b.location;} //constructeur par recopie
     lecteur_badge(const std::string& location) : location(location){};
-    lecteur_badge operator=(lecteur_badge& b) {
-        this->id_entry = b.id_entry; this->location = b.location;
-    }
-    ~lecteur_badge();
+    // lecteur_badge operator=(const lecteur_badge& b) {
+    //     this->id_entry = b.id_entry; this->location = b.location;
+    // } //Jsp si y'en as besoin
+    ~lecteur_badge(){};
 
-    std::string getLocation(){return this->location;}
-    int getId(){return this->id_entry;}
+    std::string getLocation()const {return this->location;}
+    int getId()const {return this->id_entry;}
     void setLocation(const std::string& location){this->location = location;}
     void setId(int id){this->id_entry = id;}
 };
 
-class lecteur_badge_building {
-    std::string location = "building";
+class lecteur_badge_building : public lecteur_badge {
 public:
-    friend class serveur;
+    lecteur_badge_building() : lecteur_badge("building") {}
+    
 };
 
-class lecteur_badge_classroom {
-    std::string location = "classroom";
+class lecteur_badge_classroom : public lecteur_badge {
 public:
-    friend class serveur;
+    lecteur_badge_classroom() : lecteur_badge("classroom") {}
 };
 
-class lecteur_badge_laboratory {
-    std::string location = "laboratory";
+class lecteur_badge_laboratory : public lecteur_badge {
 public:
-    friend class serveur;
+    lecteur_badge_laboratory() : lecteur_badge("laboratory") {}
+    
 };
 
-class lecteur_badge_admin_room {
-    std::string location = "admin_room";
+class lecteur_badge_admin_room : public lecteur_badge {
 public:
-    friend class serveur;
+    lecteur_badge_admin_room() : lecteur_badge("admin_room") {}
+    
 };
 
-class lecteur_badge_teach_room {
-    std::string location = "teach_room";
+class lecteur_badge_teach_room : public lecteur_badge {
 public:
-    friend class serveur;
+    lecteur_badge_teach_room() : lecteur_badge("teach_room") {}
+    
 };
 
-class lecteur_badge_tech_room {
-    std::string location = "tech_room";
+class lecteur_badge_tech_room : public lecteur_badge {
 public:
-    friend class serveur;
+    lecteur_badge_tech_room() : lecteur_badge("tech_room") {}
+    
 };
 
-int lecteur_badge::id_memory = 0;
+//int lecteur_badge::id_memory = 0;
 
 #endif //LECTEURBADGE_H

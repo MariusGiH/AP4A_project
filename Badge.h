@@ -10,59 +10,54 @@ private:
     std::string function;
 public: //forme de Coplien
     badge() : id_staff(id_memory++), name("no_name"), function("lambda") {} //Constructeur par défaut
-    badge(badge& b) : id_staff(b.id_staff), name(b.name), function(b.function) {} //Constructeur par copie
+    badge(const badge& b) : id_staff(b.id_staff), name(b.name), function(b.function) {} //Constructeur par copie
     badge(std::string name) : id_staff(id_memory++), name(name), function("lambda") {} //Constructeur
     badge(std::string name, std::string function) : id_staff(id_memory++), name(name), function(function) {}
-    badge operator=(badge& b) {
-        this->id_staff = b.id_staff;
-        this->name = b.name;
-        this->function = b.function;
-    }
-    ~badge(); //Destructeur
+    // badge operator=(const badge& b) {
+    //     this->id_staff = b.id_staff;
+    //     this->name = b.name;
+    //     this->function = b.function;
+    // } //Jsp si y'en as besoin
+    ~badge(){}; //Destructeur, vide ou supprimé si inutil
 
-    std::string getName(){return this->name;};
-    int getId(){return this->id_staff;};
-    std::string getFunction(){return this->function;};
+    std::string getName()const {return this->name;};
+    int getId()const {return this->id_staff;};
+    std::string getFunction()const {return this->function;};
     void setName(std::string name){this->name = name;};
     void setId(int id){this->id_staff = id;};
     void setFunction(std::string function){this->function = function;};
 };
 
 class badge_student : public badge {
-private:
-    std::string function = "student";
 public:
-    friend class serveur;
+    badge_student(const std::string& name)
+        : badge(name, "student") {}
 };
 
-class badge_teacher : public badge{
-private:
-    std::string function = "teacher";
+class badge_teacher : public badge {
 public:
-    friend class serveur;
+    badge_teacher(const std::string& name)
+        : badge(name, "teacher") {}
 };
 
-class badge_security : public badge{
-private:
-    std::string function = "security";
+class badge_security : public badge {
 public:
-    friend class serveur;
+    badge_security(const std::string& name)
+        : badge(name, "security") {}
 };
 
-class badge_admin : public badge{
-private:
-    std::string function = "admin";
+class badge_admin : public badge {
 public:
-    friend class serveur;
+    badge_admin(const std::string& name)
+        : badge(name, "admin") {}
 };
 
-class badge_researcher : public badge{
-private:
-    std::string function = "researcher";
+class badge_researcher : public badge {
 public:
-    friend class serveur;
+    badge_researcher(const std::string& name)
+        : badge(name, "researcher") {}
 };
 
-int badge::id_memory = 0;
+//int badge::id_memory = 0;
 
 #endif //BADGE_H

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project/cmake-build-debug",
-		"source" : "C:/Users/subri/Documents/CODE/UTBM/C++/AP4A/AP4A_project"
+		"build" : "C:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project/cmake-build-debug",
+		"source" : "C:/Users/subri/Documents/CODE/C++/AP4A/AP4A_project"
 	},
 	"version" : 
 	{

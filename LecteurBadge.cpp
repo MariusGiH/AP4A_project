@@ -1,7 +1,3 @@
 #include "LecteurBadge.h"
-#include <fstream>
-#include <iostream>
-#include "Serveur.cpp"
 
-
-
+int lecteur_badge::id_memory = 0;
