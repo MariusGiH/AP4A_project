@@ -11,10 +11,7 @@ private:
 public: //forme de Coplien
     lecteur_badge() : id_entry(id_memory++), location("unknown"){};
     lecteur_badge(const lecteur_badge& b) {this->id_entry = b.id_entry; this->location = b.location;} //constructeur par recopie
-    lecteur_badge(const std::string& location) : location(location){};
-    // lecteur_badge operator=(const lecteur_badge& b) {
-    //     this->id_entry = b.id_entry; this->location = b.location;
-    // } //Jsp si y'en as besoin
+    lecteur_badge(const std::string& location) : id_entry(id_memory++), location(location){};
     ~lecteur_badge(){};
 
     std::string getLocation()const {return this->location;}
@@ -57,7 +54,5 @@ public:
     lecteur_badge_tech_room() : lecteur_badge("tech_room") {}
     
 };
-
-//int lecteur_badge::id_memory = 0;
 
 #endif //LECTEURBADGE_H

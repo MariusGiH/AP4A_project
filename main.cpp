@@ -7,22 +7,22 @@
 
 int main() {
 
+    std::ofstream log("../log.csv", std::ios::trunc);  //Initialisation du log.csv
+
+    if (!log.is_open()) {
+        std::cerr << "Erreur : impossible de trouver le fichier log.csv\n";
+    }else {
+        std::cout << "fichier des logs ouvert, demarrage simulation\n";
+    }
+
+    log << "Time, Id, Name, Function, IdLocation, Location, AuthorizedOrNot" << std::endl;
+    log.close();
 
     simulation(); //lance simulation dans Scheduler
 
     return 0;
 
-    //Ajout d'un tri des autorisations en fonction des horaires
-
     //Tester methode virtuelle pure pour l'héritage
-
-    //concept d’interface, m´ethodes virtuelles, conversions ascendantes
-
-    //va lancer scheduler au demarrage
-
-    //Avoir les horaires dans les logs
-
-    //si refus, dire pk dans les logs
 
     //------------------------- Compte-rendu idées
 

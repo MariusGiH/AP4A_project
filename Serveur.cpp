@@ -3,7 +3,7 @@
 #include <iostream>
 #include <fstream>
 
-void demandeAcces(const badge& b, const lecteur_badge& l, int horaire) {//envoyé par lecteurBadge
+void demandeAcces(const badge& b, const lecteur_badge& l, int heure, int minute) {//envoyé par lecteurBadge
     std::string verif;
     if(verifAccess(b, l) == 0) {
         verif = "permission accepted";
@@ -19,7 +19,7 @@ void demandeAcces(const badge& b, const lecteur_badge& l, int horaire) {//envoy�
     }
 
     // Écrire l'information
-    file << horaire  <<  ", " << b.getId() << ", " << b.getName() << ", "
+    file << heure << ":" << minute <<  ", " << b.getId() << ", " << b.getName() << ", "
     << b.getFunction() <<  ", " << l.getId() <<  ", " << l.getLocation() << ", " << verif << std::endl;
 
     file.close(); // fermeture du fichier
