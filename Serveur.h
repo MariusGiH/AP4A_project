@@ -1,5 +1,3 @@
-#ifndef SERVER_H
-#define SERVER_H
 #include "LecteurBadge.h"
 #include "Badge.h"
 
@@ -13,6 +11,3 @@ public:
 
 void demandeAcces(const badge& b, const lecteur_badge& l, int heure, int minute);
 int verifAccess(const badge& b, const lecteur_badge& l);
-
-
-#endif //SERVER_H

@@ -1,20 +1,23 @@
 Time, Id, Name, Function, IdLocation, Location, AuthorizedOrNot
-8:0, 4, augustin, researcher, 2, tech_room, permission rejected : wrong function
-8:30, 4, augustin, researcher, 4, laboratory, permission accepted
-9:0, 0, marius, student, 1, teach_room, permission rejected : wrong function
-9:30, 2, armand, security, 4, laboratory, permission rejected : wrong function
-10:0, 4, augustin, researcher, 2, tech_room, permission rejected : wrong function
-10:30, 1, célia, teacher, 4, laboratory, permission rejected : wrong function
-11:0, 2, armand, security, 1, teach_room, permission rejected : wrong function
-11:30, 4, augustin, researcher, 2, tech_room, permission rejected : wrong function
-12:0, 0, marius, student, 2, tech_room, permission rejected : wrong function
-12:30, 2, armand, security, 2, tech_room, permission accepted
-13:0, 2, armand, security, 3, admin_room, permission rejected : wrong function
-13:30, 3, renaud, admin, 1, teach_room, permission rejected : wrong function
-14:0, 0, marius, student, 0, classroom, permission accepted
-14:30, 1, célia, teacher, 0, classroom, permission accepted
-15:0, 3, renaud, admin, 0, classroom, permission rejected : wrong function
-15:30, 4, augustin, researcher, 0, classroom, permission rejected : wrong function
-16:0, 2, armand, security, 3, admin_room, permission rejected : wrong function
-16:30, 1, célia, teacher, 2, tech_room, permission rejected : wrong function
-17:0, 4, augustin, researcher, 4, laboratory, permission accepted
+8:0, 0, marius, student, 1, teach_room, permission rejected : wrong function
+8:30, 1, celia, teacher, 4, laboratory, permission rejected : wrong function
+9:0, 2, armand, security, 2, tech_room, permission accepted
+9:30, 3, renaud, admin, 1, teach_room, permission rejected : wrong function
+10:0, 4, augustin, researcher, 1, teach_room, permission rejected : wrong function
+10:30, 2, armand, security, 2, tech_room, permission accepted
+11:0, 3, renaud, admin, 3, admin_room, permission accepted
+11:30, 4, augustin, researcher, 0, classroom, permission rejected : wrong function
+12:0, 3, renaud, admin, 0, classroom, permission rejected : wrong function
+12:30, 1, celia, teacher, 0, classroom, permission accepted
+13:0, 3, renaud, admin, 0, classroom, permission rejected : wrong function
+13:30, 0, marius, student, 0, classroom, permission accepted
+14:0, 3, renaud, admin, 1, teach_room, permission rejected : wrong function
+14:30, 2, armand, security, 0, classroom, permission rejected : wrong function
+15:0, 2, armand, security, 4, laboratory, permission rejected : wrong function
+15:30, 1, celia, teacher, 0, classroom, permission accepted
+16:0, 4, augustin, researcher, 1, teach_room, permission rejected : wrong function
+16:30, 3, renaud, admin, 3, admin_room, permission accepted
+17:0, 4, augustin, researcher, 1, teach_room, permission rejected : wrong function
+17:30, 2, armand, security, 3, admin_room, permission rejected : wrong function
+18:0, 0, marius, student, 0, classroom, permission accepted
+18:30, 0, marius, student, 4, laboratory, permission rejected : wrong function

@@ -5,14 +5,14 @@
 
 class lecteur_badge{
 private:
-    static int id_memory;
+    static int id_memory; //pour garder en mémoire quel était le dernier id donné, initialise dans LecteurBadge.cpp
     int id_entry;
     std::string location;
 public: //forme de Coplien
-    lecteur_badge() : id_entry(id_memory++), location("unknown"){};
+    lecteur_badge() : id_entry(id_memory++), location("unknown"){}; //Constructeur par defaut
     lecteur_badge(const lecteur_badge& b) {this->id_entry = b.id_entry; this->location = b.location;} //constructeur par recopie
-    lecteur_badge(const std::string& location) : id_entry(id_memory++), location(location){};
-    ~lecteur_badge(){};
+    lecteur_badge(const std::string& location) : id_entry(id_memory++), location(location){}; //Constructeur
+    ~lecteur_badge(){}; //Destructeur
 
     std::string getLocation()const {return this->location;}
     int getId()const {return this->id_entry;}
@@ -20,7 +20,7 @@ public: //forme de Coplien
     void setId(int id){this->id_entry = id;}
 };
 
-class lecteur_badge_building : public lecteur_badge {
+class lecteur_badge_building : public lecteur_badge { //Heritage de la class LecteurBadge pour specifier la localisation, de meme pour les class ci-dessous
 public:
     lecteur_badge_building() : lecteur_badge("building") {}
     
